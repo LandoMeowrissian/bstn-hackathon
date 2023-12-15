@@ -1,1 +1,41 @@
-/*# sourceMappingURL=styles.css.map */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Verdana";
+  font-weight: 400;
+}
+
+.header {
+  height: 3.125rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  border: 1px solid white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__img {
+  height: 14.375rem;
+  background-image: url(/assets/images/cocktails-classiques.jpg);
+  background-size: contain;
+}/*# sourceMappingURL=styles.css.map */
